@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.aaaby1" version="0.1" name="aaaby1" provider-name="rysson">
+<requires>
+  <!-- <import addon="xbmc.python" version="2.25.0"/> (Py2) -->
+  <!-- <import addon="xbmc.python" version="3.0.0"/>  (Py3) -->
+  <import addon="script.common.plugin.cache" version="2.5.5"/>
+  <import addon="script.module.requests" />
+  <import addon="script.module.future" />
+  <import addon="script.module.six" />
+  <import addon="script.module.kodi-six" />
+  <!-- <import addon="script.module.inputstreamhelper" version="0.3.3"/> -->
+  <!-- <import addon="script.module.web-pdb" /> -->
+  <import addon="script.module.web-pdb" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">KOP Polygon – video plugin</summary>
+  <summary lang="pl">KOP poligon – wtyczka video</summary>
+  <description lang="en">Testing area. Video plugin test.</description>
+  <description lang="pl">Poligon doświadczalny. Testy wtyczki video.</description>
+  <disclaimer lang="en">A private use only. https://github.com/kodi-pl/aaaby</disclaimer>
+  <language></language>
+  <platform>all</platform>
+  <license>GPLv2, MIT</license>
+  <forum>https://discord.gg/QNrpF4sCsK</forum>
+  <website>https://github.com/kodi-pl/aaaby1</website>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
+</extension>
+</addon>
